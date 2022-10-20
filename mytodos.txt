@@ -1,0 +1,2 @@
+Close the door: This is for closing the door [Priority: Optional]
+Say hi to Alejo: For his daughter's birthday [Priority: High]
