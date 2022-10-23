@@ -1,7 +1,6 @@
 """ This file builds a CLI To-Do App in python. """
 
 # Import all libraries
-from email.policy import default
 import click
 
 # Define the available priorities to the items
@@ -19,7 +18,6 @@ def mycommands():
     pass
 
 # Define the command functions
-
 @click.command()
 @click.argument("priority", type=click.Choice(PRIORITIES.keys()), default="m")
 @click.argument("todofile", type=click.Path(exists=False), required=0)
